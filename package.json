@@ -1,0 +1,20 @@
+{
+  "name": "NZSL-Dictionary",
+  "version": "1.0.0",
+  "description": "Scrape the NZSL dictionary website for metadata, video files, and images",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2"
+  }
+}
